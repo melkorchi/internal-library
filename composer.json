@@ -1,0 +1,12 @@
+{
+  "name": "mon-entreprise/internal-library",
+  "description": "Une bibliothèque interne pour notre projet Symfony.",
+  "autoload": {
+      "psr-4": {
+          "MonEntreprise\\InternalLibrary\\": "src/"
+      }
+  },
+  "require": {
+      "php": ">=7.0"
+  }
+}
