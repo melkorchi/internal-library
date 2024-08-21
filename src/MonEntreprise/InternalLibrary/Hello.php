@@ -8,4 +8,9 @@ class Hello
     {
         return "Hello from Internal Library!";
     }
+
+    public function saySalam()
+    {
+      return "Salam 3aleikoum akhi!";
+    }
 }
